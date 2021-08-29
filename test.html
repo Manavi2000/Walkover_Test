@@ -20,23 +20,36 @@
             <div class="innerbox i11">
             </div><div class="innerbox i12">
                 </div>
+                <div class="innerbox i13">
+                    <ol>
+                         <li>Selector</li>
+                         <li>Background prperty</li>
+                         <li>Font Property</li>
+                         <li>Css flex box</li>
+                         <li>Specificity</li>
+                         <li>Cascading</li>
+                         <li>Css box model</li>
+                         <li>Media queries</li>
+                    </ol>
+                </div>
             
         </div>
         <p class="boxName">Box 1</p>
     </div>
     <div class="container">
         <div class="box o2">
-            <div class="innerbox i21"> 
-            </div><div class="innerbox i22">
+            <div class="innerbox i21"> <p> 1 </p>
+            </div><div class="innerbox i22"> <p>2</p>  
             </div>
         </div>
         <p class="boxName">Box 2</p>
     </div>
 
+    <div class="lastBox">
     <div class="container">
         <div class="box o3">
             <div class="innerbox i1">
-
+                
             </div><div class="innerbox i2">
 
             </div><div class="innerbox i3">
@@ -45,27 +58,8 @@
         </div>
         <p class="boxName" >Box 3</p>
     </div>
+</div>
 
-    <div class="upButton">
-        <a href="" id="button"><p>GO TO TOP</p></a>
-      </div>
-      <script>
-        var mybutton = documnet.getelementById("button");
-
-        window.onscreen = function () {
-          scrollFunction();
-        };
-
-        function scrollFunction() {
-          if (
-            documnet.body.scroll > 100 ||
-            documnet.documentElement.scrollTop > 100
-          ) {
-            mybutton.style.display = "block";
-          } else {
-            mybutton.style.display = "none";
-          }
-        }
-      </script>
+    
 </body>
 </html>

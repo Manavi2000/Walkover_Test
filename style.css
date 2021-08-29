@@ -1,7 +1,7 @@
 .box{
     height: 600px;
     width: 600px;
-    background-color:orange;
+    background-color:rgb(216, 235, 46);
     margin: 2px;
    
 
@@ -13,55 +13,81 @@ main{
 h1{
     text-align: center;
 }
-.container{
-    display:flex;
-    flex-direction: column;
-
-}
-.container p{
+.container .boxName{
      margin:auto;
      text-align: center;
      padding-top: 20px;
      font-weight: 400;
      font-size: 25px;
 }
+.container{
+    display:flex;
+    flex-direction: column;
+
+}
+.o1 .i11 , .i12{
+    width: 35%;
+    height: 35%;
+    display: inline-block;
+    background-color: aqua;
+    margin-top: 2%;
+
+}
+.i11{
+    margin-right: 30%
+}
+.i13{
+    width: 91%;
+    height: 54%;
+    margin: 5%;
+    padding-top:5%;
+    background-color:aqua;
+    box-sizing: border-box;
+}
+
+.o1 ol{
+    text-align: center;
+    
+}
+li{
+    font-size: 24px;
+}
+.o2 .innerbox{
+    width: 40%;
+    height: 92%;
+    margin: 5%;
+    box-sizing: border-box;
+    background-color: aqua;
+    display: inline-block;
+    text-align: center;
+}
+
 
 .o3{
-    position:relative
+    position:relative;
+    box-sizing: border-box;
 }
 .o3 .innerbox{
     width: 43%;
     height: 43%;
     display: inline-block;
-    background: aqua;
+    background-color: aqua;
     margin: 3%;
-    border: 1px solid black;
-}
-
-/* to place box at center
-.o3 .innerbox {
-    width: 48%;
-    height: 48%;
-    display: inline-block;
-    background: aqua;
-    border: 1px solid black;
-} 
-.o3 {
-    position: relative;
-    padding: 9%;
-    box-sizing: border-box;
-}*/
-
-.upButton{
-    width: 150px;
-    background-color: rgb(64, 216, 71);
-    color: white;
-    position: fixed;
-    right: 2vw;
-    bottom: 2vw;
-    padding: 2vh;
-    font-weight: 900;
     box-sizing: border-box;
     
-    font-size: 20px;
+}
+ .i2 ,.i3{
+    background-image:url("img.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .o3 .i2{
+   
+        width: 42%;
+        height: 26%;
+}
+.container .o3 .i3{
+    height: 26%;
+    position: relative;
+    top: -17%;
 }

@@ -8,4 +8,17 @@
     .container{
         margin: 4vw auto;
     }
+    .container .o2 .innerbox{
+        width: 91%;
+        height: 43%;
+        display:block;
+    }
+    .lastBox .container .o3 .i3  {
+        position: relative;
+        top: 2%;
+    } 
+    .lastBox .container .o3 .i2 {
+        position: relative;
+        top: -18%;
+    }
 }
