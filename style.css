@@ -1,0 +1,53 @@
+.box{
+    height: 600px;
+    width: 600px;
+    background-color:orange;
+    margin: 2px;
+   
+
+}
+main{
+    display:flex;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+
+}
+.container p{
+     margin:auto;
+     text-align: center;
+     padding-top: 20px;
+     font-weight: 400;
+     font-size: 25px;
+}
+
+.o3{
+    position:relative
+}
+.o3 .innerbox{
+    width: 43%;
+    height: 43%;
+    display: inline-block;
+    background: aqua;
+    margin: 3%;
+    border: 1px solid black;
+}
+
+/* to place box at center
+.o3 .innerbox {
+    width: 48%;
+    height: 48%;
+    display: inline-block;
+    background: aqua;
+    border: 1px solid black;
+} 
+.o3 {
+    position: relative;
+    padding: 9%;
+    box-sizing: border-box;
+}*/
