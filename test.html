@@ -45,5 +45,27 @@
         </div>
         <p class="boxName" >Box 3</p>
     </div>
+
+    <div class="upButton">
+        <a href="" id="button"><p>GO TO TOP</p></a>
+      </div>
+      <script>
+        var mybutton = documnet.getelementById("button");
+
+        window.onscreen = function () {
+          scrollFunction();
+        };
+
+        function scrollFunction() {
+          if (
+            documnet.body.scroll > 100 ||
+            documnet.documentElement.scrollTop > 100
+          ) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+      </script>
 </body>
 </html>
